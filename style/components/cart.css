@@ -1,0 +1,81 @@
+.content {
+	padding: 0 15px;
+}
+.green{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    background: #009846;
+    padding: 10px 30px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+.green a{
+	cursor: pointer;
+	display: block;
+	color: #fff;
+	font-family: 'Roboto-Medium';
+}
+.table {
+	margin-top: 20px;
+	min-height: .01%;
+	overflow-x: auto;
+	width: 100%;
+}
+.content table {
+	width: 100%;
+}
+table{
+	background-color: transparent;
+	border-spacing: 0;
+
+}
+.content table tr{
+	border-bottom: 1px solid #d1d1d1;
+}
+.content table th {
+	background: #e1e1e1;
+	font-size: 14px;
+	padding: 10px;
+}
+th{
+	text-align: left;
+}
+.zakaz{
+	align-items: flex-start;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+.pokaz{
+	margin-top: 30px;
+}
+.pokupka{
+	text-align: right;
+	margin-top: 30px;
+	color: #636363;
+	font-size: 16pxl
+
+}
+.cena{
+	font-size: 18px;
+}
+.button_c{
+	    width: 210px;
+    height: 40px;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    margin: 20px 0;
+    transition: .3s;
+        background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(155,216,60,1)),color-stop(100%,rgba(91,175,15,1)));
+    background: -webkit-linear-gradient(270deg,rgba(155,216,60,1) 0,rgba(91,175,15,1) 100%);
+}
+button[disables]{
+	cursor: default;
+	}
+
+
+

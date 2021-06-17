@@ -1,0 +1,75 @@
+.main_menu{
+	display: flex;
+	justify-content: center;
+
+	}
+.menu ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.title2{
+	font-size: 24px;
+	font-family: Roboto-Medium;
+}
+.h4 h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+font-size: 18px;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	justify-content: center;
+	font-family: calibri;
+}
+.prod {
+	background: #fff;
+	width: 350px;
+	height: 450px;
+	margin: 20px 10px 0 10px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.btn{
+	font-family: "Roboto-Medium";
+	border-radius: 30px;
+	background-color: rgba(155,216,60,1);
+	background: linear-gradient(180deg,rgba(155,216,60,1) 0,rgba(91,175,15,1) 100%);
+	display: block;
+	height: 40px;
+	line-height: 38px;
+	width: 140px;
+	text-align: center;
+	color: #fff;
+	transition: .3s;
+	border: none;
+
+}
+.price{
+	font-size: 24px;
+	font-family: "Roboto-Medium";
+}
+.column a{
+	display: inline-block;
+	vertical-align: top;
+	color: #000;
+
+}
+
+.food{
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+ .food img{
+	width: 260px;
+	height: 210px;
+	object-fit: scale-down;
+	padding: 10px;
+	color: #636363;
+	font-size: 22px;
+	font-family: "Roboto-Medium";
+	z-index: 9;
+}

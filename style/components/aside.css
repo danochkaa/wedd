@@ -1,0 +1,30 @@
+
+
+
+.aside{
+
+	width: 250px;
+	background-color: #000;
+	font-weight: bold;
+	position: fixed;
+	left:-250px;
+	height:100%;
+	padding-top:0px;
+	transition: 300ms;
+}
+
+.aside_link{
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+	cursor:pointer;
+	margin-bottom: 20px;
+
+}
+
+
+.aside_link_first{
+	padding-top: 10px;
+
+}
+

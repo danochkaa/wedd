@@ -1,0 +1,53 @@
+.list {
+	padding: 20px 0;
+}
+.list-item {
+	display: flex;
+	height: 50px;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 0 10px;
+}
+.list-item--head {
+	background: red;
+}
+.list-item span {
+	padding: 0 10px;
+	line-height: 50px;
+	width: 17.5%;
+}
+.list-item span:last-child {
+	width: 30%;
+}
+#slider {
+
+	overflow: hidden;
+	
+	height: 450px;
+}
+
+#polosa{
+	width: 2120px;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+#polosa img{
+	float: left;
+}
+#polosa::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.food:hover { 
+	animation: frame 100s; 
+}
+.foot {
+    color: #ed1c24;
+    padding: 0 30px;
+    font-family: RMirandolinaBold-Italic;
+}
+@media screen and (max-width: 330px) {
+	#slider img {
+		height: 330px;
+	}

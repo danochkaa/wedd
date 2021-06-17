@@ -1,0 +1,149 @@
+.nav {
+	display: flex;
+	color: #000;
+	width: 47em;
+	margin: 0 auto;
+}
+
+.nav__link a{
+	font-family: 'Roboto-Medium';
+	color: #000;
+	padding: 15px 10px;
+	white-space: nowrap;
+}
+.nav__link a{
+	color: #000;
+	padding: 15px 16px;
+	font-size: 22px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav__link a:hover{
+	text-decoration: underline;
+	text-decoration-color: green;
+}
+.nav__link2 {
+{
+	    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+    padding-right: 30px;
+    font-size: 14px;
+}
+.title3 a:hover{
+	text-decoration: underline;
+}
+.nav__link2 a{
+	    color: red;
+    font-size: 18px;
+    font-family: Roboto-Bold;`
+}
+.nav__link2 img{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.nav_menu {
+	color: #000;
+	padding: 15px 16px;
+	font-size: 22px;
+
+	display: flex;
+	justify-content: space-between;
+}
+.main_menu{
+		font-size: 22px;
+	color: #000;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 70px;
+	align-items: flex-start;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav_menu {
+		width: 100%;
+	background-color: #fff;
+	padding: 12px 70px;
+	align-items: center;
+	display: flex;
+	float: left;
+}
+.nav__menu ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.nav__menu ul li{
+	list-style: none;
+	margin-left: 20px;
+}
+.nav__menu ul li a{
+	cursor: pointer;
+}
+
+.nav_menu h4, h3{
+	display: block;
+	font-size: 24px;
+}
+.nav__menu .active{
+color: #000;
+border-bottom: 2px solid #009846;
+}
+.nav__menu li a{
+	color: #6f6f6f;
+}
+.nav a img{
+	max-width: none;
+}
+.nav__link_last{
+	margin-left: 10px;
+	color: #ed1c24;
+	display: flex;
+	align-items: center;
+}
+.akcii{
+    display: flex;
+    color: #ed1c24;
+    align-items: center;
+}
+.akcii img{
+	margin-left: 10px;
+}
+img{
+	vertical-align: middle;
+	border:0;
+}
+
+.tel{
+	margin-right: 15px;
+}
+.tel-1 a {
+    color: red;
+    font-size: 18px;
+    font-family: 'Roboto-Bold';
+}
+@media screen and (max-width: 610px) {
+	.nav {
+		display: none;
+	}
+	.nav_menu{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.nav__link{
+		display: none;
+	}
+}
+@media (min-width: 1200px){
+	.navbar, main{
+		padding-left: 270px;
+	}
+	@media (min-width: 1200px){
+	.navbar, main{
+		padding-left: 270px;
+	}
+}
